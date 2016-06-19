@@ -8469,11 +8469,15 @@ footer {
       color: #b3b3b3; }
 
 .menu-common {
-  text-align: center;
-  padding: 50px 0; }
+  text-align: center; }
+  .menu-common .decor {
+    background: url(../images/decor1.png) repeat;
+    width: 100%;
+    height: 15px; }
   .menu-common ul {
     display: inline-block;
-    list-type: none; }
+    list-type: none;
+    padding: 50px 0; }
     .menu-common ul li {
       display: inline; }
       .menu-common ul li:last-child {
@@ -8492,7 +8496,68 @@ footer {
         font-size: 16px;
         line-height: 1.4;
         color: #000;
-        font-weight: bold; }
+        font-weight: bold;
+        text-decoration: none; }
+
+.news-content {
+  padding-top: 20px;
+  padding-bottom: 50px; }
+  .news-content .special {
+    background-color: #c1a050; }
+    .news-content .special img {
+      padding-top: 15px; }
+    .news-content .special .special-content {
+      position: relative;
+      color: #ffffff; }
+      .news-content .special .special-content h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-bottom: 10px; }
+      .news-content .special .special-content .special-button {
+        position: absolute;
+        color: #c1a050;
+        text-transform: uppercase;
+        padding: 10px 50px;
+        top: 300px;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+
+.right-news span {
+  font-size: 8px; }
+
+.right-news img {
+  text-align: center; }
+
+.right-news h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: #636363; }
+
+.right-news p {
+  text-align: justify;
+  color: #2d2d2d; }
+
+.right-news .new-button {
+  color: #c1a050;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  background-color: transparent;
+  border: solid 0.5px #d9d9d9; }
+
+.right-news .col-md-6 {
+  padding-bottom: 0.9375rem; }
+
+.latest-new {
+  text-align: center;
+  padding: 50px;
+  font-size: 2.5rem;
+  color: #c1a050;
+  font-family: Cochin;
+  text-transform: capitalize; }
 
 @media screen and (max-width: 767px) {
   #organization .h-line {
