@@ -6220,7 +6220,9 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    bottom: 0px; } }
+    bottom: 0px; }
+  .contact-info {
+    padding-top: 20px; } }
 
 @media (max-width: 543px) {
   .header-title h2 {
@@ -10107,7 +10109,9 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    bottom: 0px; } }
+    bottom: 0px; }
+  .contact-info {
+    padding-top: 20px; } }
 
 @media (max-width: 543px) {
   .header-title h2 {
@@ -10399,7 +10403,9 @@ button#contact-submit, #email-receive .email-box input#contact-submit {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    bottom: 0px; } }
+    bottom: 0px; }
+  .contact-info {
+    padding-top: 20px; } }
 
 @media (max-width: 543px) {
   .header-title h2 {
